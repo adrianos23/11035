@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(175,130,242,0.8743872549019608) 100%);
+  color: rgb(121, 11, 11);
+  font-family: "Gill Sans Extrabold", sans-serif;
+  justify-content: center;
+}
+
+header, 
+form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form button {
+  background: rgb(4,3,25);
+  background: linear-gradient(90deg, rgba(4,3,25,1) 68%, rgba(121,9,17,1) 97%);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list{
+  min-width: 30%;
+  list-style: none;
+}
+.todo{
+  margin: 0.5rem;
+  min-width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo li {
+  flex: 1;
+}
+
+.trash-btn{
+  background: rgb(4,3,25);
+  background: linear-gradient(90deg, rgba(4,3,25,1) 68%, rgba(121,9,17,1) 97%);
+  color: white;
+  border: none;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+.complete-btn{
+  background: rgb(4,3,25);
+  background: linear-gradient(90deg, rgba(4,3,25,1) 68%, rgba(121,9,17,1) 97%);
+  color: white;
+  border: none;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.todo-item{
+  padding: 0rem 0.5rem;
+}
+
+
+.completed{
+  text-decoration: line-through;
+}
