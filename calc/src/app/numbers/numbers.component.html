@@ -1,0 +1,8 @@
+<div class="container">
+    <h1><label for="first">First Input</label></h1>
+    <input (input)="getfirst(first.value)" type="text" #first/>
+    <h1><label for="second">Second Input</label></h1>
+    <input (input)="getsecond(second.value)" type="text" #second/>
+    <br>
+    <app-operation [firstNum]="firstNum" [secondNum]="secondNum"></app-operation>
+</div>

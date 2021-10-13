@@ -1,0 +1,8 @@
+<div class="btn-group" role="group" aria-label="operations">
+    <button (click)="AdditionButton()" type="button" class="btn btn-primary btn-lg sharp">+</button>
+    <button (click)="MinusButton()" type="button" class="btn btn-primary btn-lg sharp">-</button>
+    <button (click)="MultiplicationButton()" type="button" class="btn btn-primary btn-lg sharp">*</button>
+    <button (click)="DivisionButton()" type="button" class="btn btn-primary btn-lg sharp">/</button>
+
+    <app-result [result]="solve"></app-result>
+</div>
