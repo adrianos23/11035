@@ -1,0 +1,6 @@
+div {
+    border: 3px outset red;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(242,130,140,0.8127626050420168) 100%);
+    text-align: center;
+}

@@ -7,10 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class OperationComponent implements OnInit {
 
-  @Input() firstNum: number;
-  @Input() secondNum: number;
+  @Input() firstNum: any;
+  @Input() secondNum: any;
 
-  ans: number;
+  ans: any;
   solve = 0;
 
     AdditionButton(){
